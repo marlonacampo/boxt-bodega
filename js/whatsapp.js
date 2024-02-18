@@ -5,7 +5,7 @@ function enviarWhatsApp() {
     const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}`;
   
     // Abrir WhatsApp con el mensaje predefinido
-    window.location.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}.Mi número de teléfono es: ${phone}`;
+    window.location.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
   }
 
 
@@ -15,7 +15,7 @@ function enviarWhatsApp() {
     const title = document.querySelector('.title2').textContent;
     const price = document.querySelector('.precio2 span').textContent;
     const phone = document.querySelector('.btn-primary').getAttribute('data-wpp-phone');
-    const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}.Mi número de teléfono es: ${phone}`;
+    const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}`;
   
     // Abrir WhatsApp con el mensaje predefinido
     window.location.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
@@ -26,7 +26,7 @@ function enviarWhatsApp() {
     const title = document.querySelector('.title3').textContent;
     const price = document.querySelector('.precio3 span').textContent;
     const phone = document.querySelector('.btn-primary').getAttribute('data-wpp-phone');
-    const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}.Mi número de teléfono es: ${phone}`;
+    const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}`;
   
     // Abrir WhatsApp con el mensaje predefinido
     window.location.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
