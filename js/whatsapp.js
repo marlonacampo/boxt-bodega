@@ -29,7 +29,7 @@ function enviarWhatsApp() {
     const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}`;
   
     // Abrir WhatsApp con el mensaje predefinido
-    window.location.href = `https://api.whatsapp.com/send?phone=+573182105866&text=${encodeURIComponent(message)}`;
+    window.location.href = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURIComponent(message)}`;
   }
   
   document.addEventListener('contextmenu', function(e) {
