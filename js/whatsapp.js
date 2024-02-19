@@ -1,5 +1,5 @@
 function enviarWhatsApp() {
-    const title = document.querySelector('.title').textContent;
+    const title = document.querySelector ('.title').textContent;
     const price = document.querySelector('.precio span').textContent;
     const phone = document.querySelector('.btn-primary').getAttribute('data-wpp-phone');
     const message = `Hola! Me gustaría comprar el producto ${title} que tiene un precio de ${price}`;
